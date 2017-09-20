@@ -1,6 +1,7 @@
 
 //-A function that takes at least three arguments and returns the result of some set of operations using those arguments
-//counting the volume of cub and explaining its size by 1(small) or 2(big)
+//counting the volume of any parallelepiped and explaining its size by 1(small) or 2(big) 
+//and 0(if at least one of the entered numbers was incorrect, in other words negative)
 
 <script>
 const parallelepiped = function(num1, num2, num3)
@@ -25,7 +26,7 @@ const parallelepiped = function(num1, num2, num3)
 </script>
 
 
-//-A function that takes no arguments and returns something - 5 points
+//-A function that takes no arguments and returns something
 //Actions with different mobile phones after receiving them
 
 <script>
@@ -48,8 +49,8 @@ const model = function()
 </script>
 
 
-//-A function that takes arguments, does something but does not return anything - 6 points
-//Counts the rectagle's perimeter
+//-A function that takes arguments, does something but does not return anything
+//Counts the rectangle's perimeter
 
 <script>
 const PerimeterOfRectangle = function(side1, side2)
@@ -60,8 +61,8 @@ console.log(perimeter);
 </script>
 
 
-//-A function called fullName that takes as argument first name and last name and returns the full name of the person - 6 points
-//Takes full name and returns it with space btw
+//-A function called fullName that takes as argument first name and last name and returns the full name of the person
+//Takes full name and returns it with space between frist and last names
 
 <script>
 const fullName = function('first_name', 'last_name')
@@ -71,7 +72,7 @@ const fullName = function('first_name', 'last_name')
 </script>
 
 
-//-A function that takes three strings and returns the string that is the longest.  - 6 points
+//-A function that takes three strings and returns the string that is the longest.
 //Returns the longest string
 	
 <script>
@@ -93,7 +94,7 @@ const longestString = function(str1, str2, str3)
 </script>
 
 
-//-A function that takes two numbers and returns 0 if they are equal, 1 if the first is larger and -1 if the second is larger - 6 points
+//-A function that takes two numbers and returns 0 if they are equal, 1 if the first is larger and -1 if the second is larger
 //comparing of 2 given numbers
 
 <script>
@@ -115,7 +116,7 @@ const compare = function(num1, num2)
 </script>
 
 
-//-A function that takes three inputs and returns the first truethy value (example:  firstTruethy(0, '', 1); should return 1) - 6 points
+//-A function that takes three inputs and returns the first truethy value (example:  firstTruethy(0, '', 1); should return 1)
 //Function which will return 3 - the first thruethy value
 
 <script>
