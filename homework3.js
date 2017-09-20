@@ -3,7 +3,7 @@
 //counting the volume of cub and explaining its size by 1(small) or 2(big)
 
 <script>
-const cub = function(num1, num2, num3)
+const parallelepiped = function(num1, num2, num3)
 {
 	const volume = num1 * num2 * num3;
 	
