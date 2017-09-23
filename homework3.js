@@ -23,6 +23,7 @@ const parallelepiped = function(num1, num2, num3)
 	return 0;	
 	}
 };
+parallelepiped(2, 10, 4);
 </script>
 
 
@@ -46,6 +47,7 @@ const model = function()
 		return "Store the product on storage";	
 	}
 };
+model();
 </script>
 
 
@@ -57,7 +59,7 @@ const PerimeterOfRectangle = function(side1, side2)
 {
 	const perimeter = (side1 * 2) + (side2 * 2);
 }
-console.log(perimeter);
+PerimeterOfRectangle(2, 5);
 </script>
 
 
@@ -91,6 +93,7 @@ const longestString = function(str1, str2, str3)
 		return str3.length;
 	}
 };
+longestString('Run', 'Jump', 'Throw');
 </script>
 
 
@@ -112,7 +115,8 @@ const compare = function(num1, num2)
 	{
 		return -1;
 	}
-}
+};
+compare(3, 1);
 </script>
 
 
