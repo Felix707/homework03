@@ -2,8 +2,6 @@
 //-A function that takes at least three arguments and returns the result of some set of operations using those arguments
 //counting the volume of any parallelepiped and explaining its size by 1(small) or 2(big) 
 //and 0(if at least one of the entered numbers was incorrect, in other words negative)
-//in this case function will return 2, as the volume will be bigger then 1
-
 <script>
 const parallelepiped = function(num1, num2, num3)
 {
@@ -26,11 +24,11 @@ const parallelepiped = function(num1, num2, num3)
 };
 parallelepiped(2, 10, 4);
 </script>
+//in this case function will return 2, as the volume will be bigger then 1
+
 
 
 //-A function that takes no arguments and returns something
-//no input, but the function will return Ferrari, as it will be executed
-
 <script>
 const model = function()
 {
@@ -38,11 +36,12 @@ const model = function()
 };
 model();
 </script>
+//no input, but the function will return Ferrari, as it will be executed
+
 
 
 //-A function that takes arguments, does something but does not return anything
-//Counts the rectangle's perimeter (in this case it will return 14 because 2*2 + 5*2 = 4+10 = 14)
-
+//Counts the rectangle's perimeter 
 <script>
 const PerimeterOfRectangle = function(side1, side2)
 {
@@ -50,11 +49,12 @@ const PerimeterOfRectangle = function(side1, side2)
 }
 PerimeterOfRectangle(2, 5);
 </script>
+//in this case it will return 14 because 2*2 + 5*2 = 4+10 = 14
+
 
 
 //-A function called fullName that takes as argument first name and last name and returns the full name of the person
-//Takes full name and returns it with space between frist and last names (it will return Marshal Baghramyan)
-
+//Takes full name and returns it with space between frist and last names
 <script>
 const fullName = function('first_name', 'last_name')
 {
@@ -62,11 +62,12 @@ const fullName = function('first_name', 'last_name')
 }
 fullName('Marshal', 'Baghramyan')
 </script>
+//function will return Marshal Baghramyan
+
 
 
 //-A function that takes three strings and returns the string that is the longest.
-//Returns the longest string (in this case it will return 5, as the longest string is "Throw" has 5 letters)
-	
+//Returns the longest string
 <script>
 const longestString = function(str1, str2, str3)
 {
@@ -78,18 +79,19 @@ const longestString = function(str1, str2, str3)
 	{
 		return str2.length;
 	}
-	else if(str3.length > str1.length && str3.length > str1.length)
+	else if(str3.length > str1.length && str3.length > str2.length)
 	{
 		return str3.length;
 	}
 };
 longestString('Run', 'Jump', 'Throw');
 </script>
+//in this case it will return 5, as the longest string is "Throw" has 5 letters
+
 
 
 //-A function that takes two numbers and returns 0 if they are equal, 1 if the first is larger and -1 if the second is larger
-//comparing of 2 given numbers (in this case function will return 1, as 3 > 1)
-
+//comparing of 2 given numbers 
 <script>
 const compare = function(num1, num2)
 {
@@ -108,11 +110,12 @@ const compare = function(num1, num2)
 };
 compare(3, 1);
 </script>
+//in this case function will return 1, as 3 > 1
+
 
 
 //-A function that takes three inputs and returns the first truethy value (example:  firstTruethy(0, '', 1); should return 1)
-//Function which will return 3 - the first thruethy value (in this case number 3)
-
+//Function which will return 3 - the first thruethy value
 <script>
 
 const firstTruethy = function(a, b, c)
@@ -124,3 +127,4 @@ if(NaN || 3 || undefined)
 };
 firstTruethy(NaN || 3 || undefined);
 </script>
+//in this case function will return number 3 as the first truethy value
